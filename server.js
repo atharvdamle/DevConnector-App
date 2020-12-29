@@ -8,6 +8,10 @@ connectDB();
 
 const PORT = process.env.PORT || 5000;
 
+//Init middleware
+
+app.use(express.json({ extended: false }));
+
 //Defining Routes
 app.use('/api/users', require('./routes/api/users'));
 app.use('/api/posts', require('./routes/api/posts'));
