@@ -1,3 +1,4 @@
 {
-  "mongoURI": "mongodb+srv://atharvdamle:sharad43@devconnector.go4ip.mongodb.net/<dbname>?retryWrites=true&w=majority"
+  "mongoURI": "mongodb+srv://atharvdamle:sharad43@devconnector.go4ip.mongodb.net/<dbname>?retryWrites=true&w=majority",
+  "jwtSecret": "mysecrettoken"
 }
