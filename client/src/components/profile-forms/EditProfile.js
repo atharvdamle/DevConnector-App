@@ -60,7 +60,7 @@ const EditProfile = ({
       twitter: loading || !profile.social ? '' : profile.social.twitter,
       linkedin: loading || !profile.social ? '' : profile.social.linkedin,
     });
-  }, [loading]);
+  }, [getCurrentProfile, loading]);
 
   const onChange = (e) =>
     setFormData({
